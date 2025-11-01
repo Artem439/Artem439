@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c15d3b59f2666f4c8c33017df80cd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveSpeed: 10
 --- !u!135 &105960642
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -813,6 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c15d3b59f2666f4c8c33017df80cd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveSpeed: 10
 --- !u!1 &1818825051
 GameObject:
   m_ObjectHideFlags: 0

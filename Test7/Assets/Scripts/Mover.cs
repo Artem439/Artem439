@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Mover : MonoBehaviour
 {
+    [SerializeField] private float _moveSpeed;
+    
     private void Update()
     {
-        float valueMovement = 0.01f;
-        Vector3 nextPosition = transform.position;
-        nextPosition.x += valueMovement;
-        transform.position = nextPosition;
+        transform.Translate(transform.forward * _moveSpeed * Time.deltaTime);
     }
 }
