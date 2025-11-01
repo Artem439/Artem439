@@ -1,0 +1,13 @@
+# Файлы, игнорируемые по умолчанию
+/shelf/
+/workspace.xml
+# Игнорируемые файлы Rider
+/modules.xml
+/.idea.Test7.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Запросы HTTP-клиента в редакторе
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
